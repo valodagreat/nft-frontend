@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Collection
 
-## Getting Started
+NFT Collection is a platform where users can own a Non-Fungible-Token and join CryptoDev community by paying 0.01 eth for the NFTs. We supplied 20 NFTs in total, so the first 20 people to mint would get the NFT.
 
-First, run the development server:
+The frontend of this project was built in NextJs while the smart contract was written in Solidity and deployed on Rinkeby testnet.
+
+NFT Collection contract address : `0xF3C976D65cCdc157EFdD0c48d2593573Ca456057`
+
+Smart contract code: [https://github.com/valodagreat/nft-collection-contract](https://github.com/valodagreat/nft-collection-contract)
+## Running App
+The live version of the app can be found [here](https://nft-frontend-beta.vercel.app/)
+
+![Web APP](https://res.cloudinary.com/valodagreat/image/upload/v1656764843/Crypto-Devs_wqqg3q.png)
+
+## Usage
+
+* Clone the repo
+```bash
+git clone https://github.com/valodagreat/nft-frontend.git
+```
+
+* Change Directory to the nft-frontend
+```bash
+cd nft-frontend
+```
+
+* Install Dependencies
+```bash
+npm install
+```
+
+* In the project directory, you can run the project locally by running:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* Build the App
+```bash
+npm run build
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
